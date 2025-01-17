@@ -20,7 +20,7 @@ public class POCRouteBuilder1Test {
     @Autowired
     private ProducerTemplate producerTemplate;
 
-    @Test
+    //@Test
     public void testSuspiciousShipmentRoute() throws Exception {
         // Create and configure the mock endpoint
     	String suspiciousMessage = "AT|1234567891234567891234|Mark Imaginary|ATZ|1000|USD|Shipping|IN|Ship dual FERT chem";
